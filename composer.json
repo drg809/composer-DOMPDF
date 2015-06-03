@@ -1,0 +1,22 @@
+{
+    "name": "sileence/composer-example",
+    "description": "Ejemplo de uso composer",
+    "type": "project",
+    "authors":[
+        {
+            "name": "Daniel Rodriguez",
+            "email": "drg809@gmail.com",
+            "homepage": "http://blog.nextsun.eu",
+            "role": "student"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "dompdf/dompdf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "Course/"
+        }
+    }
+}
